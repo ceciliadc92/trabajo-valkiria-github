@@ -191,17 +191,13 @@ main {
 .footer {
     background-color: #D2BBBF;
     text-align: center;
-    font-family: Raleway;
-    font-size: 16px;
-    padding: 10px;
-}
-
-.grupo-1 {
     display: grid;
-    grid-template-columns: repeat(3, fr);
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     grid-template-areas: 
-        "sobre-nosotros made__valkiria redes";
+        "sobre-nosotros made__valkiria redes_juntos";
+    padding: 10px;
+    width: 100%;
 }
 
 .made__valkiria {
@@ -225,22 +221,38 @@ main {
 }
 
 .redes {
-    text-align: right;
-    padding-right: 100px;
-    margin-right: 10px;
-    grid-area: redes;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
 }   
 
 .redes p {
-    text-align: right;
     text-decoration: underline;
+    text-align: center;
 } 
+
+.iconos__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
 .sobre-nosotros {
     grid-area: sobre-nosotros;
-    display: flex;
-    align-items: left-end;
-    text-align: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.redes_juntos {
+    grid-area: redes_juntos;
+}
+
+.sobre-nosotros-li {
+    list-style-type: none;
 }
 
 /* NEW ARRIVALS */
