@@ -1,0 +1,960 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header p {
+    text-align: center; 
+    font-family: Raleway;
+    font-size: 22px;
+    background-color: #D2BBBF;
+    height: 40px;
+    width: auto;
+} 
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icono__hamburguesa {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+} 
+
+.icono__usuario {
+    width: 35px;
+    height: 35px;
+} 
+
+.icono__carrito {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.valkiria {
+    font-weight: bold;
+    font-size: 46px;
+    padding-left: 50px;
+}
+
+.input__buscador {
+    margin-right: 250px;
+    margin-bottom: 20px;
+}
+
+.menu {
+    background-color: black;
+    height: 40px;
+}
+
+.menu__menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.menu_item {
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu_item:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 40px;
+}
+
+.givenchy__imagen {
+    margin-left: 120px;
+    margin-right: auto;
+}
+
+.recomendados {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 30px;
+}
+
+/* CARTITAS */
+
+.carta__container {
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta__container_dos {
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carta__container_tres {
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cartita {
+    width: 300px;
+    background-color: #ffffff;
+    padding: 10px;
+    margin-top: 50px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-inline: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    position: relative;
+    border: 2px solid rgb(196, 191, 191);
+}
+
+.cartita:hover {
+    transform: translateY(-3%);
+    box-shadow: 0px 0px 20px 0px #d98b79;
+    outline: 3px inset #d98b79;
+}
+
+.cartita__imagen {
+    width: 100%;
+}
+
+.cartita__titulo {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.cartita__parrafo1 {
+    font-size: 16px;
+    text-align: center;
+}
+
+.cartita__parrafo2 {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.cartita__boton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 67px;
+    margin-top: 7px;
+}
+
+.cartita__wpp {
+    width: 25px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* */
+
+.wpp {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 60px;
+}
+
+.footer {
+    background-color: #D2BBBF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.grupo-1 {
+    display: grid;
+    grid-template-columns: repeat(3, fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+        "sobre-nosotros made__valkiria redes";
+}
+
+.made__valkiria {
+    margin-top: 15px;
+    grid-area: made__valkiria;
+}
+
+.icono__facebook {
+    width: 30px;
+    height: 30px;
+}
+
+.icono__twitter {
+    width: 30px;
+    height: 30px;
+}
+
+.icono__instagram {
+    width: 30px;
+    height: 30px;
+}
+
+.redes {
+    text-align: right;
+    padding-right: 100px;
+    margin-right: 10px;
+    grid-area: redes;
+}   
+
+.redes p {
+    text-align: right;
+    text-decoration: underline;
+} 
+
+.sobre-nosotros {
+    grid-area: sobre-nosotros;
+    display: flex;
+    align-items: left-end;
+    text-align: left;
+}
+
+/* NEW ARRIVALS */
+
+.arrivals__fondo {
+    width: 55%;
+    color: rgb(8, 8, 8);
+    font-size: 60px;
+    text-align: center;
+    margin-left: 320px;
+    margin-right: 350px;
+    cursor: default;
+}
+
+/* REGALOS POR COMPRA */
+
+.regalos__fondo {
+    font-size: 40px;
+    text-align: center;
+    margin-left: 480px;
+    margin-right: 350px;
+}
+
+.imagen__combo {
+    width: 900px;
+    height: 400px;
+    margin-left: 260px;
+    margin-right: auto;
+}
+
+.div__regalos {
+    font-size: 30px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 350px;
+    cursor: default;
+}
+
+
+.cartita___boton {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 3px;
+    margin-left: 110px;
+    margin-top: 7px;
+}
+
+/* MARCAS */
+
+.marcas__fondo {
+    font-size: 25px;
+    text-align: center;
+    margin-left: 500px;
+}
+
+.marcas__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "marca1 marca2 marca3 marca4"
+        "marca5 marca6 marca7 marca8"
+        "marca9 marca10 marca11 marca12";
+    justify-items: center;
+    align-items: center;
+}
+
+.marca1 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca1;
+}
+
+.marca2 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca2;
+}
+
+.marca3 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca3;
+}
+
+.marca4 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca4;
+}
+
+.marca5 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca5;
+}
+
+.marca6 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca6;
+}
+
+.marca7 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca7;
+}
+
+.marca8 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca8;
+}
+
+.marca9 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca9;
+}
+
+.marca10 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca10;
+}
+
+.marca11 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca11;
+}
+
+.marca12 {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    grid-area: marca12;
+}
+
+/* CONTACTO */
+
+.imagen__ubicacion {
+    width: 400px;
+    height: 400px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div__contacto {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: #d98b79;
+}
+
+.div__contacto > div {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-right: 350px;
+    width: 300px;
+    padding: 10px;
+    font-size: 17px;
+}
+
+.input__contacto, textarea {
+    border: 0;
+    width: 450px;
+}
+
+.field {
+    border: solid 1px;
+    border-radius: 4px;
+    padding: 10px;
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.field:focus {
+    border-color: black;
+}
+
+.btn {
+    border-radius: 3px;
+    display: inline-block;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 rgba (255,255,255,0.3);
+    box-shadow: 0 1px 1px rgba (0,0,0,0.3);
+    width: 450px;
+}
+
+.btn-rose {
+    color: white;
+    background-color: black;
+}
+
+.btn-rose:hover {
+    background-color: rgb(161, 164, 163);
+}
+
+.btn-rose:active {
+    background-color: black;
+}
+
+.center-content {
+    text-align: center;
+}
+
+/* MEDIA CELULAR */
+
+@media screen and (max-width: 480px) {
+
+    .header p {
+        text-align: center; 
+        font-family: Raleway;
+        font-size: 20px;
+        background-color: #D2BBBF;
+        height: 40px;
+        max-width: 100%;
+    } 
+    
+    .padre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+    
+    .icono__hamburguesa {
+        width: 30px;
+        height: 30px;
+        margin-left: auto;
+    } 
+    
+    .icono__lupa {
+        width: 20px;
+        height: 20px;
+    }
+
+    .icono__usuario {
+        width: 35px;
+        height: 35px;
+    } 
+    
+    .icono__carrito {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .valkiria {
+        font-weight: bold;
+        font-size: 46px;
+    }
+
+    .menu {
+        background-color: black;
+        height: 40px;
+    }
+    
+    .menu__menu {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+        padding-top: 10px;
+    }
+    
+    .menu_item {
+        list-style-type: none;
+        color: white;
+        font-size: 13px;
+        text-decoration: none;
+    }
+    
+    .menu_item:hover {
+        text-decoration: underline;
+    }
+    
+    main {
+        padding: 40px;
+    }
+    
+    .givenchy__imagen {
+        display: none
+    }
+    
+    .recomendados {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    /* CARTITAS */
+    
+    .carta__container {
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carta__container_dos {
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .carta__container_tres {
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba (0,0,0,0.2);
+        cursor: default;
+        transition: all 400ms ease;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .cartita {
+        width: 300px;
+        background-color: #ffffff;
+        padding: 10px;
+        margin-top: 50px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-inline: 10px;
+        margin-left: 30px;
+        margin-right: 20px;
+        position: relative;
+        border: 2px solid rgb(196, 191, 191);
+    }
+    
+    .cartita:hover {
+        transform: translateY(-3%);
+        box-shadow: 0px 0px 20px 0px #d98b79;
+        outline: 3px inset #d98b79;
+    }
+    
+    .cartita__imagen {
+        width: 100%;
+    }
+    
+    .cartita__titulo {
+        font-size: 18px;
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+    .cartita__parrafo1 {
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    .cartita__parrafo2 {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .cartita__boton {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 3px;
+        margin-left: 67px;
+        margin-top: 7px;
+    }
+    
+    .cartita__wpp {
+        width: 25px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+    
+    /* */
+    
+    .wpp {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 60px;
+    }
+    
+    .footer {
+        background-color: #D2BBBF;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 16px;
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .made__valkiria {
+        margin-top: 15px;
+        display: none;
+    }
+    
+    .icono__facebook {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .icono__twitter {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .icono__instagram {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }   
+    
+    .redes p {
+        text-decoration: underline;
+        text-align: center;
+    } 
+
+    .iconos__redes {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    
+    .sobre-nosotros {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sobre-nosotros-li {
+        list-style-type: none;
+    }
+    
+    /* NEW ARRIVALS */
+    
+    .arrivals__fondo {
+        font-size: 18px;
+        margin-left: 90px;
+        text-align: center;
+    }
+    
+    .cartitas_todas {
+        margin-left: 20px;
+    }
+
+    /* REGALOS POR COMPRA */
+    
+    .regalos__fondo {
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 200px;
+    }
+    
+    .imagen__combo {
+        width: 400px;
+        height: 200px;
+        margin-left: 1px;
+    }
+
+    .cartitas_todas2 {
+        margin-left: 20px;
+    }
+    
+    .div__regalos {
+        font-size: 30px;
+        display: flex;
+        margin-top: 20px;
+        margin-left: 350px;
+        cursor: default;
+    }
+    
+    
+    .cartita___boton {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 3px;
+        margin-left: 110px;
+        margin-top: 7px;
+    }
+    
+    /* MARCAS */
+    
+    .marcas__fondo {
+        font-size: 20px;
+        margin-left: 10px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .marcas__container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-areas: 
+            "marca1 marca2 marca3 marca4"
+            "marca5 marca6 marca7 marca8"
+            "marca9 marca10 marca11 marca12";
+        justify-items: center;
+        align-items: center;
+        column-gap: 20px;
+    }
+    
+    .marca1 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca1;
+    }
+    
+    .marca2 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca2;
+    }
+    
+    .marca3 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca3;
+    }
+    
+    .marca4 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca4;
+    }
+    
+    .marca5 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca5;
+    }
+    
+    .marca6 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca6;
+    }
+    
+    .marca7 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca7;
+    }
+    
+    .marca8 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca8;
+    }
+    
+    .marca9 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca9;
+    }
+    
+    .marca10 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca10;
+    }
+    
+    .marca11 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca11;
+    }
+    
+    .marca12 {
+        max-width: 100%;
+        height: 100px;
+        width: 100px;
+        grid-area: marca12;
+    }
+    
+    /* CONTACTO */
+    
+    .imagen__ubicacion {
+        width: 400px;
+        height: 400px;
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .div__contacto {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: #d98b79;
+    }
+    
+    .div__contacto > div {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    form {
+        padding: 10px;
+        font-size: 13px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: 280px;
+    }
+    
+    .input__contacto, textarea {
+        border: 0;
+        width: 450px;
+    }
+    
+    .field {
+        border: solid 1px;
+        border-radius: 4px;
+        padding: 10px;
+        width: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .field:focus {
+        border-color: black;
+    }
+    
+    .btn {
+        border-radius: 3px;
+        display: inline-block;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba (255,255,255,0.3);
+        box-shadow: 0 1px 1px rgba (0,0,0,0.3);
+        width: 350px;
+    }
+    
+    .btn-rose {
+        color: white;
+        background-color: black;
+    }
+    
+    .btn-rose:hover {
+        background-color: rgb(161, 164, 163);
+    }
+    
+    .btn-rose:active {
+        background-color: black;
+    }
+    
+    .center-content {
+        text-align: center;
+    }    
+
+}
