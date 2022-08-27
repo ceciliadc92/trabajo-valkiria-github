@@ -317,6 +317,7 @@ main {
     align-items: center;
     font-size: 25px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .marcas__container {
@@ -338,11 +339,19 @@ main {
     grid-area: marca1;
 }
 
+.marca1:hover {
+    transform: translateY(-6%);
+}
+
 .marca2 {
     max-width: 100%;
     height: 200px;
     width: 200px;
     grid-area: marca2;
+}
+
+.marca2:hover {
+    transform: translateY(-6%);
 }
 
 .marca3 {
@@ -352,11 +361,19 @@ main {
     grid-area: marca3;
 }
 
+.marca3:hover {
+    transform: translateY(-6%);
+}
+
 .marca4 {
     max-width: 100%;
     height: 200px;
     width: 200px;
     grid-area: marca4;
+}
+
+.marca4:hover {
+    transform: translateY(-6%);
 }
 
 .marca5 {
@@ -366,11 +383,19 @@ main {
     grid-area: marca5;
 }
 
+.marca5:hover {
+    transform: translateY(-6%);
+}
+
 .marca6 {
     max-width: 100%;
     height: 200px;
     width: 200px;
     grid-area: marca6;
+}
+
+.marca6:hover {
+    transform: translateY(-6%);
 }
 
 .marca7 {
@@ -380,11 +405,19 @@ main {
     grid-area: marca7;
 }
 
+.marca7:hover {
+    transform: translateY(-6%);
+}
+
 .marca8 {
     max-width: 100%;
     height: 200px;
     width: 200px;
     grid-area: marca8;
+}
+
+.marca8:hover {
+    transform: translateY(-6%);
 }
 
 .marca9 {
@@ -394,11 +427,19 @@ main {
     grid-area: marca9;
 }
 
+.marca9:hover {
+    transform: translateY(-6%);
+}
+
 .marca10 {
     max-width: 100%;
     height: 200px;
     width: 200px;
     grid-area: marca10;
+}
+
+.marca10:hover {
+    transform: translateY(-6%);
 }
 
 .marca11 {
@@ -408,11 +449,19 @@ main {
     grid-area: marca11;
 }
 
+.marca11:hover {
+    transform: translateY(-6%);
+}
+
 .marca12 {
     max-width: 100%;
     height: 200px;
     width: 200px;
     grid-area: marca12;
+}
+
+.marca12:hover {
+    transform: translateY(-6%);
 }
 
 /* CONTACTO */
