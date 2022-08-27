@@ -201,18 +201,11 @@ main {
 .footer {
     background-color: #D2BBBF;
     text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-        "sobre-nosotros made__valkiria redes_juntos";
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     padding: 10px;
     width: 100%;
-}
-
-.made__valkiria {
-    margin-top: 15px;
-    grid-area: made__valkiria;
 }
 
 .icono__facebook {
@@ -251,14 +244,9 @@ main {
 }
 
 .sobre-nosotros {
-    grid-area: sobre-nosotros;
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.redes_juntos {
-    grid-area: redes_juntos;
 }
 
 .sobre-nosotros-li {
@@ -721,6 +709,14 @@ form {
         margin-left: 67px;
         margin-top: 7px;
     }
+
+    .cartita__botoncito {
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 3px;
+        margin-top: 7px;
+        margin-left: 65px;
+    }
     
     .cartita__wpp {
         width: 25px;
@@ -769,15 +765,19 @@ form {
     
     .redes {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         text-align: center;
         margin-top: 10px;
         margin-bottom: 20px;
-        margin-left: 100px;
     }   
     
     .redes p {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         text-decoration: underline;
         text-align: center;
     } 
@@ -794,7 +794,7 @@ form {
         display: flex;
         justify-content: center;
         align-items: center;
-        text-align: center;
+        text-align: left;
     }
 
     .sobre-nosotros-li {
@@ -805,7 +805,6 @@ form {
     
     .arrivals__fondo {
         font-size: 18px;
-        margin-left: 90px;
         text-align: center;
     }
     
@@ -880,6 +879,11 @@ form {
         height: 100px;
         width: 100px;
         grid-area: marca1;
+    }
+
+    .marca1:hover {
+        transform: none;
+        box-shadow: none;
     }
     
     .marca2 {
