@@ -74,8 +74,8 @@
 
 .menu_item:hover {
     text-decoration: underline;
+    color: white;
 }
-
 
 main {
     padding: 40px;
@@ -87,9 +87,12 @@ main {
 }
 
 .recomendados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 /* CARTITAS */
@@ -268,17 +271,6 @@ main {
     align-items: center;
     font-size: 35px;
     text-align: center;
-}
-
-.imagen__combo {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 900px;
-    height: 400px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .div__regalos {
