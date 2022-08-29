@@ -10,7 +10,7 @@
 .header p {
     text-align: center; 
     font-family: Raleway;
-    font-size: 22px;
+    font-size: 18px;
     background-color: #D2BBBF;
     height: 40px;
     width: auto;
@@ -20,14 +20,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-}
-
-.padre_padre {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .icono__hamburguesa {
@@ -180,7 +172,7 @@ main {
     border-radius: 10px;
     padding: 3px;
     margin-top: 7px;
-    margin-left: 70px;
+    margin-left: 60px;
 }
 
 .cartita__botoncito {
@@ -188,7 +180,7 @@ main {
     border-radius: 10px;
     padding: 3px;
     margin-top: 7px;
-    margin-left: 45px;
+    margin-left: 30px;
 }
 
 .cartita__wpp {
@@ -265,7 +257,7 @@ main {
 /* NEW ARRIVALS */
 
 .arrivals__fondo {
-    font-size: 55px;
+    font-size: 45px;
     text-align: center;
 }
 
@@ -465,8 +457,8 @@ main {
 /* CONTACTO */
 
 .imagen__ubicacion {
-    width: 400px;
-    height: 400px;
+    width: 480px;
+    height: 480px;
     flex: 1;
     display: flex;
     justify-content: center;
@@ -480,6 +472,7 @@ main {
     justify-content: center;
     align-items: center;
     border: #d98b79;
+    margin-left: 150px;
 }
 
 .div__contacto > div {
@@ -497,6 +490,10 @@ form {
     font-size: 17px;
 }
 
+.form_form {
+    margin-left: 600px;
+}
+
 .input__contacto, textarea {
     border: 0;
     width: 450px;
@@ -507,8 +504,8 @@ form {
     border-radius: 4px;
     padding: 10px;
     width: 450px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 3px;
+    margin-bottom: 5px;
 }
 
 .field:focus {
