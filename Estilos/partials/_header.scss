@@ -1,0 +1,36 @@
+.header p {
+    text-align: center; 
+    font-family: Raleway;
+    font-size: 18px;
+    background-color: $mainColor;
+    height: 40px;
+    width: auto;
+} 
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .icono__hamburguesa {
+        width: 35px;
+        height: 35px;
+        margin-left: 15px;
+    } 
+    .icono__usuario {
+        width: 35px;
+        height: 35px;
+    } 
+    
+    .icono__carrito {
+        width: 35px;
+        height: 35px;
+        margin-right: 25px;
+    }
+    
+    .valkiria {
+        font-weight: bold;
+        font-size: 46px;
+        padding-left: 50px;
+    }
+}

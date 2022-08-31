@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.header p {
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    background-color: #D2BBBF;
+    height: 40px;
+    width: auto;
+}
+
+.padre {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.padre .icono__hamburguesa {
+    width: 35px;
+    height: 35px;
+    margin-left: 15px;
+}
+
+.padre .icono__usuario {
+    width: 35px;
+    height: 35px;
+}
+
+.padre .icono__carrito {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+}
+
+.padre .valkiria {
+    font-weight: bold;
+    font-size: 46px;
+    padding-left: 50px;
+}
+
+.givenchy__imagen {
+    margin-left: 120px;
+    margin-right: auto;
+}
+
+.recomendados {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 40px;
+}
+
+.menu {
+    background-color: black;
+    height: 40px;
+}
+
+.menu .menu__menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+
+.menu .menu_item {
+    list-style-type: none;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu .menu_item .menu_item:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+main {
+    padding: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
