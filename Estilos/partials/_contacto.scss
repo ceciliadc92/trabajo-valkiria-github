@@ -32,10 +32,6 @@ form {
     font-size: 17px;
 }
 
-.form_form {
-    margin-left: 600px;
-}
-
 .input__contacto, textarea {
     border: 0;
     width: 450px;
@@ -62,18 +58,21 @@ form {
     text-shadow: 0 1px 0 rgba (255,255,255,0.3);
     box-shadow: 0 1px 1px rgba (0,0,0,0.3);
     width: 450px;
-
-    .btn-rose {
-        color: white;
-        background-color: black;
-    }
-    .btn-rose:hover {
-        background-color: rgb(161, 164, 163);
-    }
-    .btn-rose:active {
-        background-color: black;
-    }
 }
+
+.btn-rose {
+    color: white;
+    background-color: black;
+}
+
+.btn-rose:hover {
+    background-color: rgb(161, 164, 163);
+}
+
+.btn-rose:active {
+    background-color: black;
+}
+
 .center-content {
     text-align: center;
 }

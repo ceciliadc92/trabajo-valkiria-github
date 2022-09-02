@@ -7,20 +7,19 @@
         flex-direction: row;
         list-style-type: none;
         justify-content: space-evenly;
-        padding-top: 10px;
-    
+        padding-top: 10px;   
+    }
 
-            .menu_item {
-                list-style-type: none;
-                color: white;
-                font-size: 18px;
-                text-decoration: none;
+    .menu_item {
+        list-style-type: none;
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+    }
 
-            .menu_item:hover {
-                text-decoration: underline;
-                color: white;
-            }
-        }
+    .menu_item:hover {
+        text-decoration: underline;
+        color: white;
     }
 }
 
