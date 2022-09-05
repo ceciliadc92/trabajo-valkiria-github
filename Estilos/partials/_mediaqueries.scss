@@ -44,20 +44,19 @@
 
     .menu {
         background-color: black;
-        height: 40px;
     }
     
     .menu__menu {
         display: flex;
         flex-direction: row;
         list-style-type: none;
-        padding-top: 10px;
+        justify-content: space-evenly;
     }
     
     .menu_item {
         list-style-type: none;
         color: white;
-        font-size: 10px;
+        font-size: 7px;
         text-decoration: none;
     }
     
@@ -472,8 +471,9 @@
     /* CONTACTO */
     
     .imagen__ubicacion {
-        width: 200px;
-        height: 200px;
+        max-width: 100%;
+        width: 320px;
+        height: 320px;
         flex: 1;
         display: flex;
         justify-content: center;
@@ -481,6 +481,7 @@
     }
     
     .div__contacto {
+        max-width: 100%;
         flex: 1;
         display: flex;
         flex-direction: column;
@@ -503,7 +504,6 @@
         justify-content: center;
         align-items: center;
         margin-top: 20px;
-        margin-left: 280px;
     }
     
     .input__contacto, textarea {

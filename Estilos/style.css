@@ -351,32 +351,29 @@ main {
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   border: #d98b79;
-  margin-left: 150px;
 }
 .div__contacto .div__contacto > div {
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
 }
 .div__contacto .imagen__ubicacion {
-  width: 480px;
-  height: 480px;
+  max-width: 100%;
+  width: 450px;
+  height: 350px;
   flex: 1;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 form {
-  margin-right: 350px;
-  width: 300px;
-  padding: 10px;
-  font-size: 17px;
+  font-size: 15px;
+  padding-left: 100px;
 }
 
 .input__contacto, textarea {
@@ -462,18 +459,17 @@ form {
   }
   .menu {
     background-color: black;
-    height: 40px;
   }
   .menu__menu {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding-top: 10px;
+    justify-content: space-evenly;
   }
   .menu_item {
     list-style-type: none;
     color: white;
-    font-size: 10px;
+    font-size: 7px;
     text-decoration: none;
   }
   .menu_item:hover {
@@ -818,14 +814,16 @@ form {
   }
   /* CONTACTO */
   .imagen__ubicacion {
-    width: 200px;
-    height: 200px;
+    max-width: 100%;
+    width: 320px;
+    height: 320px;
     flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .div__contacto {
+    max-width: 100%;
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -846,7 +844,6 @@ form {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    margin-left: 280px;
   }
   .input__contacto, textarea {
     border: 0;
