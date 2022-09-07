@@ -12,7 +12,7 @@
     .padre {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         margin-bottom: 10px;
     }
     
@@ -65,10 +65,6 @@
             text-decoration: underline;
             color: white;
         }
-    }
-    
-    main {
-        padding: 40px;
     }
     
     .givenchy__imagen {
@@ -464,16 +460,6 @@
     
     /* CONTACTO */
     
-    .imagen__ubicacion {
-        max-width: 100%;
-        width: 320px;
-        height: 320px;
-        flex: 1;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
     .div__contacto {
         max-width: 100%;
         flex: 1;
@@ -493,7 +479,6 @@
     }
     
     form {
-        padding: 10px;
         font-size: 13px;
         justify-content: center;
         align-items: center;
@@ -508,7 +493,6 @@
     .field {
         border: solid 1px;
         border-radius: 4px;
-        padding: 10px;
         width: 350px;
         margin-top: 10px;
         margin-bottom: 10px;
