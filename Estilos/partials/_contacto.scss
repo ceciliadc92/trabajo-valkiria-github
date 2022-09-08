@@ -13,15 +13,11 @@
         justify-content: space-evenly;
         align-items: center;
     }
+}
 
-    .imagen__ubicacion {
-        max-width: 100%;
-        width: 350px;
-        height: 350px;
-        flex: 1;
-        display: flex;
-        align-items: center;
-    }
+.map-iframe {
+    width: 500px;
+    height: 500px;
 }
 
 form {
