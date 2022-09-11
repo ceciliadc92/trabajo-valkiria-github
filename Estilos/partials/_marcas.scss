@@ -7,6 +7,11 @@
     margin-bottom: 30px;
 }
 
+@mixin tamanos ($ancho, $alto) {
+    width: $ancho;
+    height: $alto;
+}
+
 .marcas__container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -20,9 +25,8 @@
 
     .marca1 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca1;
+        @include tamanos (200px, 200px);
     }
 
     .marca1:hover {
@@ -31,9 +35,8 @@
 
     .marca2 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca2;
+        @include tamanos (200px, 200px);
     }
 
     .marca2:hover {
@@ -42,9 +45,8 @@
     
     .marca3 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca3;
+        @include tamanos (200px, 200px);
     }
 
     .marca3:hover {
@@ -53,9 +55,8 @@
     
     .marca4 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca4;
+        @include tamanos (200px, 200px);
     }
 
     .marca4:hover {
@@ -64,9 +65,8 @@
     
     .marca5 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca5;
+        @include tamanos (200px, 200px);
     }
     
     .marca5:hover {
@@ -75,9 +75,8 @@
     
     .marca6 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca6;
+        @include tamanos (200px, 200px);
     }
 
     .marca6:hover {
@@ -86,9 +85,8 @@
     
     .marca7 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca7;
+        @include tamanos (200px, 200px);
     }
 
     .marca7:hover {
@@ -97,9 +95,8 @@
     
     .marca8 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca8;
+        @include tamanos (200px, 200px);
     }
         
     .marca8:hover {
@@ -108,9 +105,8 @@
     
     .marca9 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca9;
+        @include tamanos (200px, 200px);
     }
 
     .marca9:hover {
@@ -119,9 +115,8 @@
     
     .marca10 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca10;
+        @include tamanos (200px, 200px);
     }
 
     .marca10:hover {
@@ -130,9 +125,8 @@
     
     .marca11 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca11;
+        @include tamanos (200px, 200px);
     }
         
     .marca11:hover {
@@ -141,12 +135,12 @@
     
     .marca12 {
         max-width: 100%;
-        height: 200px;
-        width: 200px;
         grid-area: marca12;
+        @include tamanos (200px, 200px);
     }
         
     .marca12:hover {
         transform: translateY(-4%);
     }
 }
+

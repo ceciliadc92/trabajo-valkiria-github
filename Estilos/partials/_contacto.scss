@@ -2,7 +2,7 @@
     flex: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     border: #d98b79;
 
@@ -10,14 +10,14 @@
         flex: 1;
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
         align-items: center;
     }
 }
 
 .map-iframe {
-    width: 500px;
-    height: 500px;
+    width: 450px;
+    height: 450px;
 }
 
 form {

@@ -32,20 +32,6 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 20px;
-
-        .icono__facebook {
-            width: 30px;
-            height: 30px;
-        }
-        
-        .icono__twitter {
-            width: 30px;
-            height: 30px;
-        }
-        
-        .icono__instagram {
-            width: 30px;
-            height: 30px;
         }
     }
 
@@ -57,5 +43,24 @@
         .sobre-nosotros-li {
             list-style-type: none;
         }
+}
+
+$redes: (
+    facebook: rgb(252, 252, 254),
+    instagram: rgb(250, 216, 222),
+    twitter: rgb(251, 253, 253)
+);
+
+@each $redsocial, $colordered in $redes {
+    .fa-#{$redsocial} {
+        background-color: $colordered;
     }
+}
+
+.fa-facebook, .fa-instagram, .fa-twitter {
+    @extend %iconitos;
+}
+
+.carta__container .cartita {
+    background-color: map-get($redes, facebook);
 }

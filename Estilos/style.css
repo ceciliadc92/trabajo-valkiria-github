@@ -1,4 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+.fa-facebook, .fa-instagram, .fa-twitter {
+  font-size: 20px;
+  width: 50px;
+  height: 50px;
+  padding: 1rem;
+  border-radius: 6px;
+}
+.fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover {
+  background-color: #D2BBBF;
+}
+
 * {
   margin: 0%;
   padding: 0%;
@@ -188,25 +199,30 @@ main {
   align-items: center;
   margin-bottom: 20px;
 }
-.footer .iconos__redes .icono__facebook {
-  width: 30px;
-  height: 30px;
-}
-.footer .iconos__redes .icono__twitter {
-  width: 30px;
-  height: 30px;
-}
-.footer .iconos__redes .icono__instagram {
-  width: 30px;
-  height: 30px;
-}
-.footer .sobre-nosotros {
+
+.sobre-nosotros {
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.footer .sobre-nosotros .sobre-nosotros-li {
+.sobre-nosotros .sobre-nosotros-li {
   list-style-type: none;
+}
+
+.fa-facebook {
+  background-color: rgb(252, 252, 254);
+}
+
+.fa-instagram {
+  background-color: rgb(250, 216, 222);
+}
+
+.fa-twitter {
+  background-color: rgb(251, 253, 253);
+}
+
+.carta__container .cartita {
+  background-color: rgb(252, 252, 254);
 }
 
 .arrivals__fondo {
@@ -241,108 +257,108 @@ main {
 }
 .marcas__container .marca1 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca1;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca1:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca2 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca2;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca2:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca3 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca3;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca3:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca4 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca4;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca4:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca5 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca5;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca5:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca6 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca6;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca6:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca7 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca7;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca7:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca8 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca8;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca8:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca9 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca9;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca9:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca10 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca10;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca10:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca11 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca11;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca11:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca12 {
   max-width: 100%;
-  height: 200px;
-  width: 200px;
   grid-area: marca12;
+  width: 200px;
+  height: 200px;
 }
 .marcas__container .marca12:hover {
   transform: translateY(-4%);
@@ -352,7 +368,7 @@ main {
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   border: #d98b79;
 }
@@ -360,13 +376,13 @@ main {
   flex: 1;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 }
 
 .map-iframe {
-  width: 500px;
-  height: 500px;
+  width: 450px;
+  height: 450px;
 }
 
 form {
@@ -616,6 +632,10 @@ form {
     align-items: center;
     margin-bottom: 20px;
   }
+  .fab {
+    background-color: #D2BBBF;
+    width: 45px;
+  }
   .sobre-nosotros {
     display: flex;
     justify-content: center;
@@ -819,6 +839,10 @@ form {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+  .map-iframe {
+    width: 350px;
+    height: 350px;
   }
   form {
     font-size: 13px;

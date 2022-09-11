@@ -229,6 +229,12 @@
         align-items: center;
         margin-bottom: 20px;
     }
+
+    .fab {
+        background-color: $mainColor;
+        width: 45px;
+    }
+    
     
     .sobre-nosotros {
         display: flex;
@@ -476,6 +482,11 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
+    }
+
+    .map-iframe {
+        width: 350px;
+        height: 350px;
     }
     
     form {
