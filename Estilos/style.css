@@ -101,8 +101,10 @@ main {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .carta__container .cartita {
+  max-width: 100%;
   width: 300px;
   background-color: #ffffff;
   padding: 10px;
@@ -150,7 +152,7 @@ main {
   border-radius: 10px;
   padding: 3px;
   margin-top: 7px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 .carta__container .cartita__wpp {
   width: 25px;
@@ -163,7 +165,7 @@ main {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 3px;
-  margin-left: 80px;
+  margin-left: 105px;
   margin-top: 7px;
 }
 
