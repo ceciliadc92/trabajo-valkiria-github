@@ -93,6 +93,7 @@
         align-items: center;
     
         .cartita {
+            max-width: 100%;
             width: 300px;
             background-color: #ffffff;
             padding: 10px;
@@ -252,10 +253,6 @@
     .arrivals__fondo {
         font-size: 18px;
         text-align: center;
-    }
-    
-    .cartitas_todas {
-        margin-left: 20px;
     }
 
     /* REGALOS POR COMPRA */
