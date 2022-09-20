@@ -6,6 +6,7 @@
   padding: 1rem;
   border-radius: 6px;
   margin-inline: 3px;
+  color: black;
 }
 .fa-facebook:hover, .fa-instagram:hover, .fa-twitter:hover {
   background-color: #D2BBBF;
@@ -21,10 +22,11 @@
 .header p {
   text-align: center;
   font-family: Raleway;
-  font-size: 18px;
+  font-size: 20px;
   background-color: #D2BBBF;
-  height: 40px;
+  height: 45px;
   width: auto;
+  padding-top: 7px;
 }
 
 .padre {
@@ -46,10 +48,17 @@
   height: 35px;
   margin-right: 25px;
 }
-.padre .valkiria {
+
+.valkiria {
   font-weight: bold;
   font-size: 46px;
   padding-left: 50px;
+  text-decoration: none;
+  color: #000000;
+}
+.valkiria .valkiria:hover {
+  text-decoration: none;
+  color: #000000;
 }
 
 .givenchy__imagen {
@@ -93,29 +102,29 @@ main {
 }
 
 .carta__container {
-  overflow: hidden;
   box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.2;
   cursor: default;
   transition: all 400ms ease;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .carta__container .cartita {
   max-width: 100%;
   width: 300px;
   background-color: #ffffff;
   padding: 10px;
-  margin-top: 50px;
   border-radius: 15px;
-  display: inline-block;
-  margin-inline: 10px;
-  margin-left: 30px;
-  margin-right: 20px;
   position: relative;
   border: 2px solid rgb(196, 191, 191);
+  transition: all 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .carta__container .cartita:hover {
   transform: translateY(-3%);
@@ -145,14 +154,12 @@ main {
   border-radius: 10px;
   padding: 3px;
   margin-top: 7px;
-  margin-left: 60px;
 }
 .carta__container .cartita__botoncito {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 3px;
   margin-top: 7px;
-  margin-left: 60px;
 }
 .carta__container .cartita__wpp {
   width: 25px;
@@ -165,7 +172,6 @@ main {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   padding: 3px;
-  margin-left: 105px;
   margin-top: 7px;
 }
 
@@ -212,6 +218,10 @@ main {
   list-style-type: none;
 }
 
+.fab {
+  text-decoration: none;
+}
+
 .fa-facebook {
   background-color: rgb(252, 252, 254);
 }
@@ -233,11 +243,24 @@ main {
   text-align: center;
 }
 
+.arrivals__fondos {
+  font-size: 20px;
+  text-align: center;
+}
+
 .regalos__fondo {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
+  text-align: center;
+}
+
+.regalos__fondos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -257,152 +280,114 @@ main {
   grid-template-areas: "marca1 marca2 marca3 marca4" "marca5 marca6 marca7 marca8" "marca9 marca10 marca11 marca12";
   justify-items: center;
   align-items: center;
+  gap: 50px;
+}
+.marcas__container .marca {
+  max-width: 100%;
 }
 .marcas__container .marca1 {
-  max-width: 100%;
   grid-area: marca1;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca1:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca2 {
-  max-width: 100%;
   grid-area: marca2;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca2:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca3 {
-  max-width: 100%;
   grid-area: marca3;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca3:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca4 {
-  max-width: 100%;
   grid-area: marca4;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca4:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca5 {
-  max-width: 100%;
   grid-area: marca5;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca5:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca6 {
-  max-width: 100%;
   grid-area: marca6;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca6:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca7 {
-  max-width: 100%;
   grid-area: marca7;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca7:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca8 {
-  max-width: 100%;
   grid-area: marca8;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca8:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca9 {
-  max-width: 100%;
   grid-area: marca9;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca9:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca10 {
-  max-width: 100%;
   grid-area: marca10;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca10:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca11 {
-  max-width: 100%;
   grid-area: marca11;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca11:hover {
   transform: translateY(-4%);
 }
 .marcas__container .marca12 {
-  max-width: 100%;
   grid-area: marca12;
-  width: 200px;
-  height: 200px;
 }
 .marcas__container .marca12:hover {
   transform: translateY(-4%);
 }
 
 .div__contacto {
-  flex: 1;
   display: flex;
-  flex-direction: row;
   justify-content: center;
   align-items: center;
   border: #d98b79;
-}
-.div__contacto .div__contacto > div {
-  flex: 1;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+  gap: 4rem;
 }
 
 .map-iframe {
-  width: 450px;
-  height: 450px;
+  width: 400px;
+  max-width: 100%;
+  aspect-ratio: 1;
 }
 
 form {
   font-size: 15px;
-  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .input__contacto, textarea {
   border: 0;
   width: 450px;
+  max-width: 100%;
 }
 
 .field {
   border: solid 1px;
   border-radius: 4px;
   padding: 10px;
-  width: 450px;
   margin-top: 3px;
   margin-bottom: 5px;
 }
@@ -440,16 +425,12 @@ form {
 
 @media screen and (max-width: 480px) {
   .header p {
-    text-align: center;
-    font-family: Raleway;
     font-size: 15px;
     background-color: #D2BBBF;
     height: 40px;
     max-width: 100%;
   }
   .padre {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
     margin-bottom: 10px;
   }
@@ -467,7 +448,6 @@ form {
     height: 25px;
   }
   .padre .valkiria {
-    font-weight: bold;
     font-size: 38px;
   }
   .menu {
@@ -475,122 +455,33 @@ form {
     height: 40px;
   }
   .menu .menu__menu {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
     justify-content: space-between;
     padding-top: 5px;
     padding-right: 25px;
   }
   .menu .menu_item {
-    list-style-type: none;
-    color: white;
     font-size: 9px;
-    text-decoration: none;
-  }
-  .menu .menu_item:hover {
-    text-decoration: underline;
-    color: white;
   }
   .givenchy__imagen {
     display: none;
   }
   .recomendados {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     font-size: 12px;
     margin-top: 30px;
   }
   /* CARTITAS */
   .carta__container {
-    overflow: hidden;
-    box-shadow: 0px 1px 10px rgba 0, 0, 0, 0.2;
-    cursor: default;
-    transition: all 400ms ease;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .carta__container .cartita {
-    max-width: 100%;
-    width: 300px;
-    background-color: #ffffff;
-    margin-top: 50px;
-    border-radius: 15px;
-    display: inline-block;
-    margin-inline: 10px;
-    margin-left: 30px;
-    margin-right: 20px;
-    position: relative;
-    border: 2px solid rgb(196, 191, 191);
-  }
-  .carta__container .cartita:hover {
-    transform: translateY(-3%);
-    box-shadow: 0px 0px 20px 0px #d98b79;
-    outline: 3px inset #d98b79;
-  }
-  .carta__container .cartita__imagen {
-    width: 100%;
-  }
-  .carta__container .cartita__titulo {
-    font-size: 18px;
-    text-align: center;
-    margin-top: 5px;
-  }
-  .carta__container .cartita__parrafo1 {
-    font-size: 16px;
-    text-align: center;
-  }
-  .carta__container .cartita__parrafo2 {
-    font-size: 14px;
-    font-weight: bold;
-    text-align: center;
+    gap: 10px;
     margin-top: 10px;
-  }
-  .carta__container .cartita__boton {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 3px;
-    margin-top: 7px;
-    margin-left: 60px;
-  }
-  .carta__container .cartita__botoncito {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 3px;
-    margin-top: 7px;
-    margin-left: 60px;
-  }
-  .carta__container .cartita__wpp {
-    width: 25px;
-    position: absolute;
-    top: 10px;
-    right: 10px;
-  }
-  .cartita___boton {
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    padding: 3px;
-    margin-left: 80px;
-    margin-top: 7px;
+    margin-bottom: 10px;
   }
   /* */
   .wpp {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
     width: 30px;
   }
   .footer {
     background-color: #D2BBBF;
-    text-align: center;
-    font-family: Raleway;
     font-size: 16px;
-    padding: 10px;
-    width: 100%;
   }
   .redes {
     display: flex;
@@ -602,20 +493,7 @@ form {
     margin-bottom: 20px;
   }
   .redes p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-decoration: underline;
-    text-align: center;
     font-size: 14px;
-  }
-  .iconos__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20px;
   }
   .fab {
     background-color: #D2BBBF;
@@ -633,235 +511,52 @@ form {
   }
   /* NEW ARRIVALS */
   .arrivals__fondo {
-    font-size: 18px;
-    text-align: center;
+    font-size: 20px;
+  }
+  .arrivals__fondos {
+    font-size: 15px;
   }
   /* REGALOS POR COMPRA */
   .regalos__fondo {
+    font-size: 20px;
+  }
+  .regalos__fondos {
     font-size: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
-  .imagen__combo {
-    width: 400px;
-    height: 200px;
-    margin-left: 1px;
-  }
-  .cartitas_todas2 {
-    margin-left: 20px;
-  }
-  .div__regalos {
-    font-size: 30px;
-    display: flex;
-    margin-top: 20px;
-    margin-left: 350px;
-    cursor: default;
   }
   .cartita___boton {
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     padding: 3px;
-    margin-left: 110px;
     margin-top: 7px;
   }
   /* MARCAS */
   .marcas__fondo {
     font-size: 15px;
     margin-left: 10px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
   }
   .marcas__container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-areas: "marca1 marca2 marca3 marca4" "marca5 marca6 marca7 marca8" "marca9 marca10 marca11 marca12";
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "marca1 marca2" "marca3 marca4" "marca5 marca6" "marca7 marca8" "marca9 marca10" "marca11 marca12";
     justify-items: center;
     align-items: center;
-    -moz-column-gap: 20px;
-         column-gap: 20px;
-  }
-  .marcas__container .marca1 {
-    max-width: 100%;
-    height: 100px;
-    width: 80px;
-    grid-area: marca1;
-  }
-  .marca1:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca2 {
-    max-width: 100%;
-    height: 100px;
-    width: 80px;
-    grid-area: marca2;
-  }
-  .marca2:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca3 {
-    max-width: 100%;
-    height: 90px;
-    width: 90px;
-    grid-area: marca3;
-  }
-  .marca3:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca4 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca4;
-  }
-  .marca4:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca5 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca5;
-  }
-  .marca5:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca6 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca6;
-  }
-  .marca6:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca7 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca7;
-  }
-  .marca7:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca8 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca8;
-  }
-  .marca8:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca9 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca9;
-  }
-  .marca9:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca10 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca10;
-  }
-  .marca10:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca11 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca11;
-  }
-  .marca11:hover {
-    transform: none;
-    box-shadow: none;
-  }
-  .marcas__container .marca12 {
-    max-width: 100%;
-    height: 80px;
-    width: 80px;
-    grid-area: marca12;
-  }
-  .marca12:hover {
-    transform: none;
-    box-shadow: none;
+    gap: 25px;
   }
   /* CONTACTO */
   .div__contacto {
     max-width: 100%;
-    flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border: #d98b79;
-  }
-  .div__contacto > div {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .map-iframe {
-    width: 350px;
-    height: 350px;
   }
   form {
     font-size: 13px;
-    justify-content: center;
-    align-items: center;
     margin-top: 20px;
   }
-  .input__contacto,
-textarea {
-    border: 0;
-    width: 250px;
-  }
   .field {
-    border: solid 1px;
-    border-radius: 4px;
-    width: 250px;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-  .btn {
-    border-radius: 3px;
-    display: inline-block;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-shadow: 0 1px 0 rgba 255, 255, 255, 0.3;
-    box-shadow: 0 1px 1px rgba 0, 0, 0, 0.3;
-    width: 250px;
-  }
   .btn-rose {
-    color: white;
-    background-color: black;
     font-size: 10px;
-  }
-  .btn-rose:active {
-    background-color: black;
-  }
-  .center-content {
-    text-align: center;
   }
 }/*# sourceMappingURL=style.css.map */
